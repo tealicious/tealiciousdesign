@@ -22,17 +22,20 @@ if($_POST["submit"]) {
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="theme-color" content="#000000" />
-	<title>Freelance Web Designer and Developer Cincinnati</title>
-	<meta name="author" content="Codrops" />
+	<title>Freelance Web Designer and Developer | Cincinnati Based Web Design</title>
+	<meta name="author" content="Daniel Carter" />
+  <meta name="Description" content="I'm Daniel, a freelance web designer and developer located in the greater Cincinnati area. I specialize in robust, dynamic web platforms.">
+  <meta name="robots" content="NOODP">
+  <meta name="googlebot" content="NOODP">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="icon" href="whiteEwok.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-  <!--  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!--  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/badges.css">
   <link rel="stylesheet" type="text/css" href="css/component.css" />
   <link rel="stylesheet" type="text/css" href="css/demo.css" />   FORMER CSS STACK AND ORDER-->
-	  <link rel="stylesheet" type="text/css" href="css/index.min.css" />
+	  <link rel="stylesheet" type="text/css" href="css/index.css" />
 	<script src="js/modernizr-custom.js"></script>
 </head>
 
@@ -51,17 +54,17 @@ if($_POST["submit"]) {
       <a target="_blank" class="link link--social link--faded" href="https://www.behance.net/tealicious"><i class="fa fa-behance"></i><span class="text-hidden">Behance</span></a>
       <a target="_blank" class="link link--social link--faded" href="https://github.com/tealicious"><i class="fa fa-github"></i><span class="text-hidden">Github</span></a>
       <a target="_blank" class="link link--social link--faded" href="https://www.youtube.com/channel/UCDYeH_JVLS8EcJZKByHxX9A"><i class="fa fa-youtube-play"></i><span class="text-hidden">YouTube</span></a>
-      <a target="_blank" class="link link--social link--faded" href="https://www.facebook.com/TLiscious"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
+      <a target="_blank" class="link link--social link--faded" href="https://www.facebook.com/TLiscious"><i class="fa fa-facebook-square"></i><span class="text-hidden">Facebook</span></a>
       <a target="_blank" class="link link--social link--faded" href="https://www.linkedin.com/in/daniel-carter-a49b9b41"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
 		</div>
 	</nav>
 	<div class="pages-nav__item2 pages-nav__item--social2">
-      <a target="_blank" class="link link--social link--faded" href="https://www.behance.net/tealicious"><i class="fa fa-behance"></i><span class="text-hidden">Behance</span></a>
-      <a target="_blank" class="link link--social link--faded" href="https://github.com/tealicious"><i class="fa fa-github"></i><span class="text-hidden">Github</span></a>
-			<a target="_blank" class="link link--social link--faded" href="https://www.instagram.com/tea_lish/"><i class="fa fa-instagram"></i><span class="text-hidden">Instagram</span></a>
-			<a target="_blank" class="link link--social link--faded" href="https://www.linkedin.com/in/daniel-carter-a49b9b41"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
-			<a target="_blank" class="link link--social link--faded" href="https://www.facebook.com/TLiscious"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
-			<a target="_blank" class="link link--social link--faded" href="https://www.youtube.com/channel/UCDYeH_JVLS8EcJZKByHxX9A"><i class="fa fa-youtube-play"></i><span class="text-hidden">YouTube</span></a>
+    <a target="_blank" class="link link--social link--faded" href="https://www.instagram.com/tea_lish/"><i class="fa fa-instagram"></i><span class="text-hidden">Instagram</span></a>
+    <a target="_blank" class="link link--social link--faded" href="https://www.behance.net/tealicious"><i class="fa fa-behance"></i><span class="text-hidden">Behance</span></a>
+    <a target="_blank" class="link link--social link--faded" href="https://github.com/tealicious"><i class="fa fa-github"></i><span class="text-hidden">Github</span></a>
+    <a target="_blank" class="link link--social link--faded" href="https://www.youtube.com/channel/UCDYeH_JVLS8EcJZKByHxX9A"><i class="fa fa-youtube-play"></i><span class="text-hidden">YouTube</span></a>
+    <a target="_blank" class="link link--social link--faded" href="https://www.facebook.com/TLiscious"><i class="fa fa-facebook-square"></i><span class="text-hidden">Facebook</span></a>
+    <a target="_blank" class="link link--social link--faded" href="https://www.linkedin.com/in/daniel-carter-a49b9b41"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
 		</div>
 	<!-- /navigation-->
 	<!-- pages stack -->
@@ -123,14 +126,16 @@ if($_POST["submit"]) {
                         <li>Dev Languages: HTML5 / CSS3 / Sass / JavaScript / jQuery</li>
 						<li>Frameworks: Bootstrap / Foundation</li>
 						<li>Version Control: Git on Git Bash</li>
+            <li>CMS: WordPress</li>
                         <li>Advanced Proficiency: Photo Manipulation</li>
                         <li>Advanced Proficiency: DSLR Photography</li>
-						<li>Highly Proficient: Layout and Graphic Design with Photoshop and GIMP</li>
+
                     </ul>
                 </div>
 				<div class="col-md-5 col-md-offset-1">
                     <ul class=left>
-						<li>Advanced Written and Oral Communication Skills</li>
+                      <li>Highly Proficient: Layout Design with Photoshop and GIMP</li>
+						              <li>Advanced Written and Oral Communication Skills</li>
                         <li>Strong Presentation & Negotiation Skills</li>
                         <li>Advanced Online Social Networking Experience</li>
                         <li>Demonstrated Customer Service Skills</li>
@@ -174,15 +179,19 @@ if($_POST["submit"]) {
                      <h3 class=right>Mason, OH  </h3>
 
                 </div>
-				<div class="col-md-7">
-                    <ul><li><strong>Design, develop, and implement all html/css/jQuery, and host following projects:</strong></li>
-                        <li><a href="http://tealiciousdesign.com/Plaid%20Room%20Records/www/index.html">Plaid Room Records</a>: Integrate established branding into original web layout</li>
-						<li><a href="http://tealiciousdesign.com/R&W%20Backups/startbootstrap-creative-1.0.2/index.html">R & W Auto</a>: Develop solution to update existing site by coordinating with 3rd party responsible for hosting inaccessible and embedded iframe content</li>
-						<li><a href="http://tealiciousdesign.com/Skateboard/team.html">Cream Skateboards</a>: Conceptualize and implement online branding identity</li>
-						<li><a href="http://tealiciousdesign.com/bake/index.html">BAKE!</a>: Create branding identity and develop a two-tiered e-commerce catering menu</li>
+				            <div class="col-md-7">
+                    <ul>
+            <li><strong>Design, develop, and implement all html/css/jQuery, and host following projects:</strong></li>
+            <li><a href="http://www.carterknives.co/" target="_blank">Carter Knives Company</a>: Develop ecommerce platform that allows client to update inventory via mobile device or PC in WordPress
+            </li>
+            <li><a href="http://tealiciousdesign.com/Plaid%20Room%20Records/www/index.html" target="_blank">Plaid Room Records</a>: Integrate established branding into original web layout</li>
+            <li><a href="http://tealiciousdesign.com/bake/index.html" target="_blank">BAKE!</a>: Create branding identity and develop a two-tiered e-commerce catering menu</li>
+						<li><a href="http://tealiciousdesign.com/R&W%20Backups/startbootstrap-creative-1.0.2/index.html" target="_blank">R & W Auto</a>: Develop solution to update existing site by coordinating with 3rd party responsible for hosting inaccessible and embedded iframe content</li>
+						<li><a href="http://tealiciousdesign.com/Skateboard/team.html" target="_blank">Cream Skateboards</a>: Conceptualize and implement online branding identity</li>
+
 
                     </ul>
-                </div>
+                  </div>
 				</div>
 				<div class=row>
                 <div class="col-md-4">
@@ -290,93 +299,79 @@ Erosion Runner</h3>
 		<div class="container-fluid" id="design">
 
 
-                <div class=row>
+          <div class=row>
 
-                    <div class="col-md-8 col-sm-12">
-
-					<div class="thumbnail effect-goliath">
-
-					<img class="cole" src="images/colemine.JPG">
-					<div class="caption">
-
-                                    <h2>plaidroom records</h2>
-
-                                    <p>Responsive redesign for a real record store</p>
-									<a class="work-link" href="Plaid Room Records/www/index.html">visit</a>
-						</div>
+          <div class="col-md-8 col-sm-12">
+  					<div class="thumbnail effect-goliath">
+  						<img class="sideB lesserImg" src="images/bake.jpg">
+  								<div class="caption">
+                                      <h2>BAKE!</h2>
+                                      <p>Designer caf&#233 and bakery for an emerging niche market</p>
+  									<a  href="bake/index.html" class="work-link" target="_blank">visit</a>
+  								</div>
+  					</div>
+    				</div>
 
 
 
-
-					</div>
-					</div>
-
-
-				<div class="col-md-4 col-sm-12">
-					<div class="thumbnail effect-goliath">
-						<img src="images/car.jpg">
-								<div class="caption">
-                                    <h2>R&W Auto</h2>
-
-                                    <p>Iframe development for a small business website overhaul</p>
-									<a class="work-link"   href="http://tealiciousdesign.com/R&W%20Backups2/startbootstrap-creative-1.0.2/index.html">visit</a>
-								</div>
-
-
-					</div>
-				</div>
-
-
-
-
-				<div class="col-md-4 col-sm-12">
-
+				  <div class="col-md-4 col-sm-12">
 					<div class="thumbnail effect-goliath">
 					<img class="cole" src="images/creamboards.jpg">
-
 								<div class="caption">
                                     <h2>Creamboards</h2>
 
                                     <p>Branding concept for a skateboard company</p>
-								<a class="work-link"  href="http://tealiciousdesign.com/Skateboard/team.html">visit</a>
-								</div>
-
-					</div>
-					</div>
-
-
-
-
-
-				<div class="col-md-8 col-sm-12">
-					<div class="thumbnail effect-goliath">
-						<img class="sideB lesserImg" src="images/bake.jpg">
-								<div class="caption">
-                                    <h2>BAKE!</h2>
-
-                                    <p>Designer caf&#233 and bakery for an emerging niche market</p>
-									<a  href="bake/index.html" class="work-link">visit</a>
+								<a class="work-link"  href="http://tealiciousdesign.com/Skateboard/team.html" target="_blank">visit</a>
 								</div>
 					</div>
-				</div>
-        <div class="col-md-12 col-sm-12">
+					</div>
 
-<div class="thumbnail effect-goliath">
+          <div class="col-md-8 col-md-push-4 col-sm-12">
+          <div class="thumbnail effect-goliath">
+          <img class="cole" src="images/colemine.JPG">
+          <div class="caption">
+                    <h2>plaidroom records</h2>
+                    <p>Responsive redesign for a real record store</p>
+          <a class="work-link" href="Plaid Room Records/www/index.html">visit</a>
+          </div>
+          </div>
+          </div>
 
-<img class="cole" src="images/laptop.jpg">
-<div class="caption">
+          <div class="col-md-4 col-md-pull-8 col-sm-12">
+          <div class="thumbnail effect-goliath">
+          <img class="cole" src="images/carterknives.jpg" style="object-position: 0 0;">
+          <div class="caption">
+                        <h2>Carter Knives Co.</h2>
+                        <p>Custom WordPress theme and ecommerce platform</p>
+                        <a class="work-link" href="http://www.carterknives.co/" target="_blank">visit</a>
+          </div>
+          </div>
+          </div>
 
-                        <h2>Development Process Blog</h2>
 
-                        <p>Posts about my latest project codenamed "Wild Men Die" as it develops</p>
-      <a class="work-link" href="http://tealiciousdesign.com/blog/home/">visit</a>
-</div>
+          <div class="col-md-4 col-md-push-8 col-sm-12">
+          <div class="thumbnail effect-goliath">
+           <img src="images/car.jpg">
+               <div class="caption">
+                                   <h2>R&W Auto</h2>
+                                   <p>Iframe development for a small business website overhaul</p>
+                 <a class="work-link"   href="http://tealiciousdesign.com/R&W%20Backups2/startbootstrap-creative-1.0.2/index.html" target="_blank">visit</a>
+               </div>
+         </div>
+         </div>
+
+          <div class="col-md-8 col-md-pull-4 col-sm-12">
+          <div class="thumbnail effect-goliath">
+          <img class="cole" src="images/laptop.jpg">
+          <div class="caption">
+                    <h2>Development Process Blog</h2>
+                    <p>Coming soon: a process blog about my upcoming collaborative helmet psa project</p>
+                    <a class="work-link" href="#">visit</a>
+          </div>
+          </div>
+          </div>
 
 
-
-
-</div>
-</div>
 		</div>
 
 		</div>
