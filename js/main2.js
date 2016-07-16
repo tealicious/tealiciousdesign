@@ -5,10 +5,10 @@ jQuery(document).ready(function($){
 		var inputFields = $('.floating-labels .cd-label').next();
 		inputFields.each(function(){
 			var singleInput = $(this);
-			//check if user is filling one of the form fields 
+			//check if user is filling one of the form fields
 			checkVal(singleInput);
 			singleInput.on('change keyup', function(){
-				checkVal(singleInput);	
+				checkVal(singleInput);
 			});
 		});
 	}
@@ -16,13 +16,19 @@ jQuery(document).ready(function($){
 	function checkVal(inputField) {
 		( inputField.val() == '' ) ? inputField.prev('.cd-label').removeClass('float') : inputField.prev('.cd-label').addClass('float');
 	}
+
 });
+
+$('form').submit(function (evt) {
+evt.preventDefault(); //prevents the default action
+
+}
 
 $('.report-card.treehouse').reportCard({
     userName: 'danielcarter2',
     site: 'treehouse',
     badgesAmount: 12
-	
+
 });
 
 /**KONAMI CODE**/
@@ -52,4 +58,3 @@ $( ".title-flip" ).click(function() {
   $( ".flip-card" ).addClass("flipped");
   }
 });
-

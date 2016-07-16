@@ -16,7 +16,6 @@ if($_POST["submit"]) {
 ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -28,14 +27,14 @@ if($_POST["submit"]) {
   <meta name="robots" content="NOODP">
   <meta name="googlebot" content="NOODP">
 	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="icon" href="whiteEwok.png">
+	<link rel="icon" href="blackEwok.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <!--  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/badges.css">
   <link rel="stylesheet" type="text/css" href="css/component.css" />
   <link rel="stylesheet" type="text/css" href="css/demo.css" />   FORMER CSS STACK AND ORDER-->
-	  <link rel="stylesheet" type="text/css" href="css/index.css" />
+	  <link rel="stylesheet" type="text/css" href="css/index.min.css" />
 	<script src="js/modernizr-custom.js"></script>
 </head>
 
@@ -267,7 +266,8 @@ Erosion Runner</h3>
             </div>
         </div>
 		<div class = "row report">
-				<div class="col-md-8 col-md-push-2">
+          <div class="col-xs-12 col-xs-push-0 col-sm-2 col-xs-push-4 col-sm-push-0 col-md-pull-1 col-lg-push-1"><a href="https://teamtreehouse.com/danielcarter2" target="_blank"><img class="image-responsive" src="images/treehouse.png"/></a></div>
+				  <div class="col-md-10 col-xs-12">
                <div class="report-card treehouse"></div>
 			   </div>
 			   </div>
@@ -332,7 +332,7 @@ Erosion Runner</h3>
           <div class="caption">
                     <h2>plaidroom records</h2>
                     <p>Responsive redesign for a real record store</p>
-          <a class="work-link" href="Plaid Room Records/www/index.html">visit</a>
+          <a class="work-link" href="Plaid Room Records/www/index.html"  target="_blank">visit</a>
           </div>
           </div>
           </div>
