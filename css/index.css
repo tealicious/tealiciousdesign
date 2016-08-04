@@ -1230,12 +1230,12 @@ margin-top:0;
 }
 .report-card {
   display: block;
-  padding-bottom:25px;
+  padding-bottom:0;
   margin:0 auto;
 }
 
 .badges {
-    margin: 10px -10px 25px;
+    margin: 10px -10px 5px;
     padding: 0;
 }
 
@@ -1327,7 +1327,7 @@ padding:.25em;
 margin-top:0;
 }
 #design {
-margin-bottom:40px;
+margin-bottom:0;
 }
 .thumbnail {
 border-radius:0;
@@ -1352,13 +1352,17 @@ object-position:50% 0;
 .thumbnail .cole {
 object-position:50% 43%;
 }
-
+.thumbnail .excite {
+  object-fit:contain;
+  background:white url('../images/noise.png') repeat;
+  object-position: 50% 50%;
+}
 .thumbnail .sideB, .thumbnail a>.sideB, .thumbnail>.sideB {
 height:100%;
 width:100%;
 overflow:hidden;
 object-fit:cover;
-object-position:50% 50%;
+object-position:50% 34%;
 }
 
 
@@ -1659,6 +1663,9 @@ div#diagonal {
 }
 }
 @media screen and (min-width:768px) {
+  .about-shadow {
+    padding: 25px;
+}
 div#diagonal {
     border-top-width: 100vh;
     border-right-width: 768px;
@@ -1670,7 +1677,11 @@ div#diagonal {
     border-right-width: calc(100vw - 110px);
 }
 .badges {
-  margin:10px 21% 25px;
+  margin:0 auto 30px;
+    width:64.5rem;
+}
+.report .treehouse h2 {
+  margin-top:13px;
 }
 }
 #page-home #diagnonal {
@@ -1784,14 +1795,36 @@ font-size:1.4em;
 }
 }
 @media (min-width: 992px) {
+  .report .image-responsive {
+    -webkit-transition: -webkit-all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+
+  .report .image-responsive:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow:border-radius: 100%;
+    box-shadow: 10px 10px 20px #787878;
+  }
+  .report .image-responsive:active {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 4px 4px 13px #999;
+    -webkit-transition: -webkit-all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+  }
 .about p {
-margin:0 5%;
+margin:0;
 }
 .about .row {
 margin-bottom:25px;
 }
 .about .container-fluid {
 width:95%;
+}
+.about .pad-change{
+  padding-left:25px;
+  padding-right:25px;
 }
 .resume h2 {
 line-height:2.16;
@@ -1928,7 +1961,7 @@ backface-visibility: hidden;
 
   .report-card{
   width:auto;
-  margin:0 -20%;
+  margin:0 -18%;
   }
     .break {
 display:block;
@@ -2089,7 +2122,10 @@ z-index:1;
 }
 .report .image-responsive {
   height:130px;
+  border-radius: 100%;
+  box-shadow: 4px 4px 13px #999;
 }
+
 .report .col-xs-push-0 {
   z-index:1;
 }
@@ -2097,11 +2133,25 @@ z-index:1;
   .resume-shadow {
     margin-bottom:30px;
   }
+  .report {
+    overflow:hidden;
+  }
   .report .col-xs-push-0  {
       margin-left:50%;
   }
 .report .image-responsive {
   transform:translate(-50%,0);
+  -webkit-transform:translate(-50%,0);
+  -moz-transform:translate(-50%,0);
+  -ms-transform:translate(-50%,0);
   margin-bottom:22px;
 }
+
+}
+
+
+.tooltip-inner {
+letter-spacing:1px;
+color:white;
+padding:1rem;
 }

@@ -19,10 +19,6 @@ jQuery(document).ready(function($){
 
 });
 
-$('form').submit(function (evt) {
-evt.preventDefault(); //prevents the default action
-
-}
 
 $('.report-card.treehouse').reportCard({
     userName: 'danielcarter2',

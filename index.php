@@ -44,8 +44,8 @@ if($_POST["submit"]) {
 	<!-- navigation -->
 	<nav class="pages-nav">
 		<div class=" icon-set pages-nav__item"><a class="link link--page" href="#page-home"><span>Home</span><i class="fa fa-2x fa-home" aria-hidden="true"></i></a></div>
-		<div class=" icon-set pages-nav__item"><a class="link link--page" href="#page-docu"><span>Resum&#233</span><i class="fa fa-2x fa-file-text" aria-hidden="true"></i></a></div>
 		<div class=" icon-set pages-nav__item"><a class="link link--page" href="#page-manuals"><span>work</span><i class="fa fa-2x fa-television" aria-hidden="true"></i></a></div>
+    <div class=" icon-set pages-nav__item"><a class="link link--page" href="#page-docu"><span>Resum&#233</span><i class="fa fa-2x fa-file-text" aria-hidden="true"></i></a></div>
 		<div class=" icon-set pages-nav__item"><a class="link link--page" href="#page-software"><span>about</span><i class="fa fa-2x fa-user" aria-hidden="true"></i></a></div>
 		<div class=" icon-set pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-contact"><span>Contact</span><i class="fa fa-2x Example of envelope-o fa-envelope-o"></i></a></div>
 		<div class="pages-nav__item pages-nav__item--social">
@@ -266,7 +266,7 @@ Erosion Runner</h3>
             </div>
         </div>
 		<div class = "row report">
-          <div class="col-xs-12 col-xs-push-0 col-sm-2 col-xs-push-4 col-sm-push-0 col-md-pull-1 col-lg-push-1"><a href="https://teamtreehouse.com/danielcarter2" target="_blank"><img class="image-responsive" src="images/treehouse.png"/></a></div>
+          <div class="col-xs-12 col-xs-push-0 col-sm-2 col-sm-push-0 col-md-pull-1 col-lg-push-1"><a href="https://teamtreehouse.com/danielcarter2" target="_blank"><img class="image-responsive" src="images/treehouse.png"/></a></div>
 				  <div class="col-md-10 col-xs-12">
                <div class="report-card treehouse"></div>
 			   </div>
@@ -280,16 +280,10 @@ Erosion Runner</h3>
 		<div class="page" id="page-manuals">
 		<div id="diagonal_outer"><div id="diagonal"></div></div>
 			<header class="bp-header cf">
-			<div class="col-xs-6">
+			<div class="col-xs-12">
 			<div class="title">
 			<h1 class="bp-header__title strikethrough">work</h1>
 							<img class="sprite" src="../images/sprites.png">
-			</div>
-			</div>
-			<div class="col-xs-6">
-			<div class="title">
-				<h1>WEB</h1>
-				<p>Site development</p>
 			</div>
 			</div>
 			</header>
@@ -339,7 +333,7 @@ Erosion Runner</h3>
 
           <div class="col-md-4 col-md-pull-8 col-sm-12">
           <div class="thumbnail effect-goliath">
-          <img class="cole" src="images/carterknives.jpg" style="object-position: 0 0;">
+          <img class="cole" src="images/carterknives1.jpg" style="object-position: 50% 50%;">
           <div class="caption">
                         <h2>Carter Knives Co.</h2>
                         <p>Custom WordPress theme and ecommerce platform</p>
@@ -351,22 +345,22 @@ Erosion Runner</h3>
 
           <div class="col-md-4 col-md-push-8 col-sm-12">
           <div class="thumbnail effect-goliath">
-           <img src="images/car.jpg">
+           <img src="images/bootstrap4demo.jpg">
                <div class="caption">
-                                   <h2>R&W Auto</h2>
-                                   <p>Iframe development for a small business website overhaul</p>
-                 <a class="work-link"   href="http://tealiciousdesign.com/R&W%20Backups2/startbootstrap-creative-1.0.2/index.html" target="_blank">visit</a>
+                                   <h2>Bootstrap 4 Project</h2>
+                                   <p><a href="https://teamtreehouse.com/" target="_blank">Team Treehouse</a>  project from their Bootstrap 4 course - Developed with Sass</p>
+                 <a class="work-link"   href="http://tealiciousdesign.com/v4alpha/index.html" target="_blank">visit</a>
                </div>
          </div>
          </div>
 
           <div class="col-md-8 col-md-pull-4 col-sm-12">
           <div class="thumbnail effect-goliath">
-          <img class="cole" src="images/laptop.jpg">
+          <img class="cole excite" src="images/excitebike.png">
           <div class="caption">
-                    <h2>Development Process Blog</h2>
-                    <p>Coming soon: a process blog about my upcoming collaborative helmet psa project</p>
-                    <a class="work-link" href="#">visit</a>
+                    <h2>In Development</h2>
+                    <p><strong>Coming Soon:</strong><br />A motorcycle helmet PSA project made in collaboration with <a href="http://samuelgates.com/" target="_blank">Sam Gates</a></p>
+                    <a class="work-link" target="_blank" href="http://tealiciousdesign.com/scrub">visit</a>
           </div>
           </div>
           </div>
@@ -375,12 +369,6 @@ Erosion Runner</h3>
 		</div>
 
 		</div>
-		<div class="container-fluid">
-		<div class="title">
-				<h1>PHOTO</h1>
-				<p>Shot and edited by me during my time at<a target="_blank" href="https://www.ontimeparts.com/"> OnTimeParts.com</p>
-			</div>
-			</div>
 
 		<div class="container-fluid">
 		<div class="document-shadow photo-shadow">
@@ -447,7 +435,7 @@ Erosion Runner</h3>
 
 			<div class="table">
 			<div class="table-cell">
-			<div class="col-sm-7">
+			<div class="col-md-7 pad-change">
 			<p>Hello, I'm Daniel, a hard working guy and freelance front end web developer. I started learning code to better understand the languages powering the most important communication tool to date. It is incredibly satisfying to design and build a dynamic web application. I push hard every day to learn about new dev languages, web-building tools, and best practices so that I can create fast, fun, and highly functional web applications with a top-tier, end-user's experience in mind.</p>
 			<br>
 					<p>I like music, film, coffee, beer, motorcycles, skateboards, video games, food and all other types of life's little luxuries. And when it comes to Game of Thrones, I prefer the show to the books. <strong style="display:block">¯\_(ツ)_/¯</strong></p>
@@ -455,7 +443,7 @@ Erosion Runner</h3>
 					<p>You may be wondering about that weird homepage image of mine. It's a photo manipulation that alludes to Neil Young and Crazy Horse's Rust Never Sleeps tour, which featured <a target="_blank" href="http://a-six-demon-bag.blogspot.com/2013/02/neil-young-and-jawas.html">Jawas</a>, from the original Star Wars films.</p>
 					<br>
 					</div>
-					<div class="col-sm-5">
+					<div class="col-md-5 pad-change">
 					<p>I love web development. It's a never-ending puzzle, with new stuff to learn around every corner. My goal is to do quality, collaboratively-driven work for people and organizations who have positive effects on the communities they serve, and to do this by assessing their core values and mission, and reflecting them accurately in my design. If you're reading this, chances are good that I may have given you a card, or you are considering reaching out to talk to me about a project or position.  Trust Shia on this one and just <a target="_blank" href="https://www.youtube.com/watch?v=cxCCp3nbCEk">do it</a>.
 					</p>
 					</div>
@@ -536,12 +524,18 @@ Erosion Runner</h3>
 	<button class="menu-button"><span>work</span></button>
 	<script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
   <script src="js/index.min.js"></script>
-	<!--<script src="js/photography.js" type="text/javascript" charset="utf-8"></script>
+  <!--<script src="js/bootstrap.min.js"></script>
+	<script src="js/photography.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/classie.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/reportcard.js"></script>
 	<script src="js/konami.js"></script>
-	<script src="js/main2.js"></script>ORIGINAL ORDER-->
+	<script src="js/main2.js"></script>
+  <script>
+    $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+  </script>-->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
