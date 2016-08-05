@@ -112,7 +112,7 @@ $.ajaxPrefilter(function(options, originalOptions, jqXHR) {
           cacheKey: 'reportcard' + options.site + options.userName,
           dataType: opts.dataType,
           crossDomain: true,
-          async: true,
+          async: false,
           beforeSend: function() {
             options.$element.html('<div class="spinner"></div>');
           },

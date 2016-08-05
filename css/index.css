@@ -1681,7 +1681,7 @@ div#diagonal {
     width:64.5rem;
 }
 .report .treehouse h2 {
-  margin-top:13px;
+  margin-top:7px;
 }
 }
 #page-home #diagnonal {
@@ -2149,7 +2149,12 @@ z-index:1;
 
 }
 
-
+.tooltip {
+  font-size:15px;
+}
+.tooltip.top {
+  margin-top:-16px;
+}
 .tooltip-inner {
 letter-spacing:1px;
 color:white;
