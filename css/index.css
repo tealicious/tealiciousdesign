@@ -402,10 +402,15 @@ FLoating labels
   text-align:center;
 }
 
-.report-card p, .resume h2 {
+.report-card p, .resume h2, .report-card h3 {
   margin:0;
 }
-
+.resume h3 {
+  margin-top:.75em !important;
+}
+.report-card p{
+  font-size:1.2em;
+}
 .badges {
   margin:10px 10px 25px;
   padding:0;
@@ -842,6 +847,10 @@ font-size:1.15em;
 font-size: 1.4em;
 padding: 1em .5em;
 }
+.badges {
+  margin:0 auto 1.25rem !important;
+    width:50.5rem !important;
+  }
 }
 
 /* General Blueprint Style */
@@ -1136,7 +1145,7 @@ padding:33px 0;
 }
 /**HOME STYLINGS**/
 #neilEwok {
-background:url(http://i.imgur.com/ITNOvg4.jpg) fixed no-repeat 0 0;
+background:url('../images/onthebeach.jpg') fixed no-repeat 0 0;
 background-size:cover;
 margin:0;
 border-radius:10px;
@@ -1677,12 +1686,10 @@ div#diagonal {
     border-right-width: calc(100vw - 110px);
 }
 .badges {
-  margin:0 auto 30px;
-    width:64.5rem;
+  margin:0 auto;
+    width:50.5rem;
 }
-.report .treehouse h2 {
-  margin-top:7px;
-}
+
 }
 #page-home #diagnonal {
     border-color:#EFE9EA whitesmoke;
@@ -1801,14 +1808,14 @@ font-size:1.4em;
   }
 
   .report .image-responsive:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: translateX(-50%) scale(1.1);
+    transform: translateX(-50%) scale(1.1);
     box-shadow:border-radius: 100%;
     box-shadow: 10px 10px 20px #787878;
   }
   .report .image-responsive:active {
-    -webkit-transform: scale(1);
-    transform: scale(1);
+    -webkit-transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) scale(1);
     box-shadow: 4px 4px 13px #999;
     -webkit-transition: -webkit-all .1s ease-in-out;
     transition: all .1s ease-in-out;
@@ -1829,8 +1836,9 @@ width:95%;
 .resume h2 {
 line-height:2.16;
 }
-.report h2 {
+.report h2, .report h3 {
   line-height:initial;
+  font-size:1.17em;
 }
 
 .right {
@@ -1844,6 +1852,10 @@ text-align: center;
 @media screen and (max-width : 992px) {
 .resume-head {
 text-align:left;
+
+.report-card h3{
+  font-size:1.5em !important;
+}
 }
 
 
@@ -1961,7 +1973,6 @@ backface-visibility: hidden;
 
   .report-card{
   width:auto;
-  margin:0 -18%;
   }
     .break {
 display:block;
@@ -2124,6 +2135,9 @@ z-index:1;
   height:130px;
   border-radius: 100%;
   box-shadow: 4px 4px 13px #999;
+  margin: 0 0 39px;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .report .col-xs-push-0 {
@@ -2140,17 +2154,15 @@ z-index:1;
       margin-left:50%;
   }
 .report .image-responsive {
-  transform:translate(-50%,0);
-  -webkit-transform:translate(-50%,0);
-  -moz-transform:translate(-50%,0);
-  -ms-transform:translate(-50%,0);
-  margin-bottom:22px;
+  margin-bottom:39px;
 }
 
 }
 
 .tooltip {
   font-size:15px;
+  display:table !important;
+  min-height:72px !important;
 }
 .tooltip.top {
   margin-top:-16px;
@@ -2158,5 +2170,14 @@ z-index:1;
 .tooltip-inner {
 letter-spacing:1px;
 color:white;
-padding:1rem;
+padding:1.125rem;
+display:table-cell;
+vertical-align:middle;
+}
+
+#particles-js {
+  height:100%;
+  background:url('../images/bg.png')repeat;
+  border-radius:10px;
+
 }

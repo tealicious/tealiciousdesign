@@ -84,7 +84,7 @@ $.ajaxPrefilter(function(options, originalOptions, jqXHR) {
         var html, lastBadges, liWidth;
         lastBadges = data.badges.slice(-options.badgesAmount);
         liWidth = (100 / (lastBadges.length + 1)) + "%";
-        html = "<h2>I have passed " + data.badge_count + " lessons and scored " + (toThousands(data.points_total)) + " points at " + data.site + "!</h2>\n<p>Check out some of my last passed course content at the badges below: </p>\n<ul class=\"badges\">";
+        html = "<h3>I have passed " + data.badge_count + " lessons and scored " + (toThousands(data.points_total)) + " points at " + data.site + "!</h3>\n<p>Check out some of my latest coursework: </p>\n<ul class=\"badges\">";
         lastBadges.forEach(function(badge) {
           return html += "<li style=\"width: " + liWidth + ";\" title=\"" + badge.label + "\">\n  <a href=\"" + data.profile_url + "\" target=\"_blank\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"" + badge.label + "\">\n    <img src=\"" + badge.icon_url + "\" alt=\"" + badge.label + "\"/>\n  </a>\n</li>";
         });

@@ -20,12 +20,7 @@ jQuery(document).ready(function($){
 });
 
 
-$('.report-card.treehouse').reportCard({
-    userName: 'danielcarter2',
-    site: 'treehouse',
-    badgesAmount: 12
 
-});
 
 /**KONAMI CODE**/
 var audio = new Audio('Konami.mp3');
@@ -53,4 +48,10 @@ $( ".title-flip" ).click(function() {
   } else {
   $( ".flip-card" ).addClass("flipped");
   }
+});
+
+$('.report-card.treehouse').reportCard({
+    userName: 'danielcarter2',
+    site: 'treehouse',
+    badgesAmount: 12
 });
